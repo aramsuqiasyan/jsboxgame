@@ -102,7 +102,7 @@ function handelBoxClick(event){
     if(event.target.dataset.box){
         score++;
         renderBox();
-        $game.style.background = colors[getRandom(0,colors.length)];
+        // $game.style.background = colors[getRandom(0,colors.length)];
     }
 }
 
